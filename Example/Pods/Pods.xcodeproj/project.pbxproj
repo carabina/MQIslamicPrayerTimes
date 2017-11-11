@@ -12,6 +12,7 @@
 		4CC4FA02CA438EBBDDB90D2D2700E972 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC43FF5E9C2706755862C67B652238 /* ReplaceMe.swift */; };
 		98990A8A7DB0B7024DC2D93F379A160D /* Pods-MQIslamicPrayerTimes_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8A54CE17ADEDA765B26703530AC30A /* Pods-MQIslamicPrayerTimes_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B71F085E1FB7006D00A7D7B0 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F085D1FB7006D00A7D7B0 /* Test.swift */; };
+		B71F08601FB7023500A7D7B0 /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F085F1FB7023400A7D7B0 /* Prayer.swift */; };
 		EC70F78C4F224E1577FF98B241838222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F349D2306733935A3C570871BDBC6C44 /* Pods-MQIslamicPrayerTimes_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B444919AAE71D8394876A16105B6CBBE /* Pods-MQIslamicPrayerTimes_Tests-dummy.m */; };
 		F609F09098167152D0F69BEC7101FAFE /* MQIslamicPrayerTimes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C646CA1C048E430303757FF5C99B7FB8 /* MQIslamicPrayerTimes-dummy.m */; };
@@ -45,6 +46,7 @@
 		A1C50BA0E683829DF03C3720A5A6CA66 /* Pods_MQIslamicPrayerTimes_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQIslamicPrayerTimes_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B444919AAE71D8394876A16105B6CBBE /* Pods-MQIslamicPrayerTimes_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MQIslamicPrayerTimes_Tests-dummy.m"; sourceTree = "<group>"; };
 		B71F085D1FB7006D00A7D7B0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		B71F085F1FB7023400A7D7B0 /* Prayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayer.swift; sourceTree = "<group>"; };
 		C646CA1C048E430303757FF5C99B7FB8 /* MQIslamicPrayerTimes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MQIslamicPrayerTimes-dummy.m"; sourceTree = "<group>"; };
 		C9E061A6BC26178F340DECA32CE801BF /* Pods-MQIslamicPrayerTimes_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MQIslamicPrayerTimes_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CA63D00DD9C5F43C344B16556F5E4AAC /* Pods-MQIslamicPrayerTimes_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MQIslamicPrayerTimes_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		8DC911360659B4896E15889008AB8B4F /* MQIslamicPrayerTimes */ = {
 			isa = PBXGroup;
 			children = (
+				B71F085F1FB7023400A7D7B0 /* Prayer.swift */,
 				8ECC43FF5E9C2706755862C67B652238 /* ReplaceMe.swift */,
 				6B15C51345857808479D28A471DFD169 /* Support Files */,
 				B71F085D1FB7006D00A7D7B0 /* Test.swift */,
@@ -266,6 +269,7 @@
 			files = (
 				F609F09098167152D0F69BEC7101FAFE /* MQIslamicPrayerTimes-dummy.m in Sources */,
 				4CC4FA02CA438EBBDDB90D2D2700E972 /* ReplaceMe.swift in Sources */,
+				B71F08601FB7023500A7D7B0 /* Prayer.swift in Sources */,
 				B71F085E1FB7006D00A7D7B0 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
