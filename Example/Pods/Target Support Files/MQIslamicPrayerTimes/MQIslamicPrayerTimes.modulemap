@@ -1,0 +1,6 @@
+framework module MQIslamicPrayerTimes {
+  umbrella header "MQIslamicPrayerTimes-umbrella.h"
+
+  export *
+  module * { export * }
+}

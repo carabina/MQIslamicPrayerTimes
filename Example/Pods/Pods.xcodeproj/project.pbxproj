@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3255F1F47A9FB4882ECD00F0010F1FD4 /* MQIslamicPrayerTimes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4FCCD1CE266D9E1AC326BFE3A4ADD0 /* MQIslamicPrayerTimes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45E335BED6904268A9B0205A9A5A58D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4CC4FA02CA438EBBDDB90D2D2700E972 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC43FF5E9C2706755862C67B652238 /* ReplaceMe.swift */; };
+		98990A8A7DB0B7024DC2D93F379A160D /* Pods-MQIslamicPrayerTimes_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8A54CE17ADEDA765B26703530AC30A /* Pods-MQIslamicPrayerTimes_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC70F78C4F224E1577FF98B241838222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F349D2306733935A3C570871BDBC6C44 /* Pods-MQIslamicPrayerTimes_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B444919AAE71D8394876A16105B6CBBE /* Pods-MQIslamicPrayerTimes_Tests-dummy.m */; };
+		F609F09098167152D0F69BEC7101FAFE /* MQIslamicPrayerTimes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C646CA1C048E430303757FF5C99B7FB8 /* MQIslamicPrayerTimes-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F181D7F2E89DEF442711BAD1D30EC971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DD5D1CDEE559760741EE24B13287517;
+			remoteInfo = MQIslamicPrayerTimes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17983400FC1D43990D0AAA86C281DB78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE71CCE10DB2292C63C167B40B357B9 /* Pods-MQIslamicPrayerTimes_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MQIslamicPrayerTimes_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4B231A2A37A4C610B7539E35A3B53D32 /* Pods-MQIslamicPrayerTimes_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MQIslamicPrayerTimes_Tests-resources.sh"; sourceTree = "<group>"; };
+		57B2D06657CEAEEB2D717B2B12E11DD6 /* MQIslamicPrayerTimes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MQIslamicPrayerTimes.modulemap; sourceTree = "<group>"; };
+		5D60343D717778DB441DE3C488C0B546 /* Pods-MQIslamicPrayerTimes_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MQIslamicPrayerTimes_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B0BEAA8C694C2C3084FD462ADA96149 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F163EE378939194598BB8F8A360F5F7 /* MQIslamicPrayerTimes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MQIslamicPrayerTimes-prefix.pch"; sourceTree = "<group>"; };
+		7C4FCCD1CE266D9E1AC326BFE3A4ADD0 /* MQIslamicPrayerTimes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MQIslamicPrayerTimes-umbrella.h"; sourceTree = "<group>"; };
+		7CA3C054AFD6F728E1F68663D6A32B39 /* MQIslamicPrayerTimes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MQIslamicPrayerTimes.framework; path = MQIslamicPrayerTimes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8A54CE17ADEDA765B26703530AC30A /* Pods-MQIslamicPrayerTimes_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MQIslamicPrayerTimes_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8ECC43FF5E9C2706755862C67B652238 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MQIslamicPrayerTimes/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9384403FB005927F2C55C804EBCCD60A /* MQIslamicPrayerTimes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MQIslamicPrayerTimes.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1C50BA0E683829DF03C3720A5A6CA66 /* Pods_MQIslamicPrayerTimes_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MQIslamicPrayerTimes_Tests.framework; path = "Pods-MQIslamicPrayerTimes_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B444919AAE71D8394876A16105B6CBBE /* Pods-MQIslamicPrayerTimes_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MQIslamicPrayerTimes_Tests-dummy.m"; sourceTree = "<group>"; };
+		C646CA1C048E430303757FF5C99B7FB8 /* MQIslamicPrayerTimes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MQIslamicPrayerTimes-dummy.m"; sourceTree = "<group>"; };
+		C9E061A6BC26178F340DECA32CE801BF /* Pods-MQIslamicPrayerTimes_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MQIslamicPrayerTimes_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA63D00DD9C5F43C344B16556F5E4AAC /* Pods-MQIslamicPrayerTimes_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MQIslamicPrayerTimes_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D059D8111C6939D7063D54A6D7D5F88F /* Pods-MQIslamicPrayerTimes_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MQIslamicPrayerTimes_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA50D675970A36AAE5176167C4E632E7 /* Pods-MQIslamicPrayerTimes_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MQIslamicPrayerTimes_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48790CD3CC124E722E4951E8982B80F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E335BED6904268A9B0205A9A5A58D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6592B8ACB12AF33F3A77E02467664200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC70F78C4F224E1577FF98B241838222 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0361BC3AEA96813CD950EBBFDBEC4A5E /* Pods-MQIslamicPrayerTimes_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				17983400FC1D43990D0AAA86C281DB78 /* Info.plist */,
+				FA50D675970A36AAE5176167C4E632E7 /* Pods-MQIslamicPrayerTimes_Tests.modulemap */,
+				D059D8111C6939D7063D54A6D7D5F88F /* Pods-MQIslamicPrayerTimes_Tests-acknowledgements.markdown */,
+				C9E061A6BC26178F340DECA32CE801BF /* Pods-MQIslamicPrayerTimes_Tests-acknowledgements.plist */,
+				B444919AAE71D8394876A16105B6CBBE /* Pods-MQIslamicPrayerTimes_Tests-dummy.m */,
+				CA63D00DD9C5F43C344B16556F5E4AAC /* Pods-MQIslamicPrayerTimes_Tests-frameworks.sh */,
+				4B231A2A37A4C610B7539E35A3B53D32 /* Pods-MQIslamicPrayerTimes_Tests-resources.sh */,
+				8E8A54CE17ADEDA765B26703530AC30A /* Pods-MQIslamicPrayerTimes_Tests-umbrella.h */,
+				5D60343D717778DB441DE3C488C0B546 /* Pods-MQIslamicPrayerTimes_Tests.debug.xcconfig */,
+				1EE71CCE10DB2292C63C167B40B357B9 /* Pods-MQIslamicPrayerTimes_Tests.release.xcconfig */,
+			);
+			name = "Pods-MQIslamicPrayerTimes_Tests";
+			path = "Target Support Files/Pods-MQIslamicPrayerTimes_Tests";
+			sourceTree = "<group>";
+		};
+		4BAD713F9012654C669AC890B4485FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CA3C054AFD6F728E1F68663D6A32B39 /* MQIslamicPrayerTimes.framework */,
+				A1C50BA0E683829DF03C3720A5A6CA66 /* Pods_MQIslamicPrayerTimes_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F536A7CDC51B126278F52D44304CB52 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0361BC3AEA96813CD950EBBFDBEC4A5E /* Pods-MQIslamicPrayerTimes_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6B15C51345857808479D28A471DFD169 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B0BEAA8C694C2C3084FD462ADA96149 /* Info.plist */,
+				57B2D06657CEAEEB2D717B2B12E11DD6 /* MQIslamicPrayerTimes.modulemap */,
+				9384403FB005927F2C55C804EBCCD60A /* MQIslamicPrayerTimes.xcconfig */,
+				C646CA1C048E430303757FF5C99B7FB8 /* MQIslamicPrayerTimes-dummy.m */,
+				6F163EE378939194598BB8F8A360F5F7 /* MQIslamicPrayerTimes-prefix.pch */,
+				7C4FCCD1CE266D9E1AC326BFE3A4ADD0 /* MQIslamicPrayerTimes-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MQIslamicPrayerTimes";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AB72EC3DE1CE426FCCD62B9DF0158944 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4BAD713F9012654C669AC890B4485FC1 /* Products */,
+				4F536A7CDC51B126278F52D44304CB52 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DC911360659B4896E15889008AB8B4F /* MQIslamicPrayerTimes */ = {
+			isa = PBXGroup;
+			children = (
+				8ECC43FF5E9C2706755862C67B652238 /* ReplaceMe.swift */,
+				6B15C51345857808479D28A471DFD169 /* Support Files */,
+			);
+			name = MQIslamicPrayerTimes;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AB72EC3DE1CE426FCCD62B9DF0158944 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DC911360659B4896E15889008AB8B4F /* MQIslamicPrayerTimes */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E0AE3F251BA4FD9E59FD1B4D69797EDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3255F1F47A9FB4882ECD00F0010F1FD4 /* MQIslamicPrayerTimes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACDA07799B67060ABE57083707B5495 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98990A8A7DB0B7024DC2D93F379A160D /* Pods-MQIslamicPrayerTimes_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9DD5D1CDEE559760741EE24B13287517 /* MQIslamicPrayerTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2029AB817393165A2A364346474BBE8C /* Build configuration list for PBXNativeTarget "MQIslamicPrayerTimes" */;
+			buildPhases = (
+				DDFB67598BC2E5BED8386CD3C8A1C21D /* Sources */,
+				48790CD3CC124E722E4951E8982B80F1 /* Frameworks */,
+				E0AE3F251BA4FD9E59FD1B4D69797EDB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQIslamicPrayerTimes;
+			productName = MQIslamicPrayerTimes;
+			productReference = 7CA3C054AFD6F728E1F68663D6A32B39 /* MQIslamicPrayerTimes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDE3DE12EC4D9D402C11C28291F79144 /* Pods-MQIslamicPrayerTimes_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED445BDFF7CCBBBF0AC7459EE43D360D /* Build configuration list for PBXNativeTarget "Pods-MQIslamicPrayerTimes_Tests" */;
+			buildPhases = (
+				4392EB40B155A60CBA5B403CD83D366E /* Sources */,
+				6592B8ACB12AF33F3A77E02467664200 /* Frameworks */,
+				FACDA07799B67060ABE57083707B5495 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2B4263485A1A3AA49C8A4868F8B1A3E /* PBXTargetDependency */,
+			);
+			name = "Pods-MQIslamicPrayerTimes_Tests";
+			productName = "Pods-MQIslamicPrayerTimes_Tests";
+			productReference = A1C50BA0E683829DF03C3720A5A6CA66 /* Pods_MQIslamicPrayerTimes_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4BAD713F9012654C669AC890B4485FC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DD5D1CDEE559760741EE24B13287517 /* MQIslamicPrayerTimes */,
+				DDE3DE12EC4D9D402C11C28291F79144 /* Pods-MQIslamicPrayerTimes_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4392EB40B155A60CBA5B403CD83D366E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F349D2306733935A3C570871BDBC6C44 /* Pods-MQIslamicPrayerTimes_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFB67598BC2E5BED8386CD3C8A1C21D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F609F09098167152D0F69BEC7101FAFE /* MQIslamicPrayerTimes-dummy.m in Sources */,
+				4CC4FA02CA438EBBDDB90D2D2700E972 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2B4263485A1A3AA49C8A4868F8B1A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MQIslamicPrayerTimes;
+			target = 9DD5D1CDEE559760741EE24B13287517 /* MQIslamicPrayerTimes */;
+			targetProxy = F181D7F2E89DEF442711BAD1D30EC971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		173395859B5161186451B79D5B6F37F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE71CCE10DB2292C63C167B40B357B9 /* Pods-MQIslamicPrayerTimes_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MQIslamicPrayerTimes_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MQIslamicPrayerTimes_Tests/Pods-MQIslamicPrayerTimes_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MQIslamicPrayerTimes_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5B80CC747125DB1AE60F2858E6A8807A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9384403FB005927F2C55C804EBCCD60A /* MQIslamicPrayerTimes.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MQIslamicPrayerTimes/MQIslamicPrayerTimes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MQIslamicPrayerTimes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MQIslamicPrayerTimes/MQIslamicPrayerTimes.modulemap";
+				PRODUCT_NAME = MQIslamicPrayerTimes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BC6CF0B7E1BDB689AC520D0B324764CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9384403FB005927F2C55C804EBCCD60A /* MQIslamicPrayerTimes.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MQIslamicPrayerTimes/MQIslamicPrayerTimes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MQIslamicPrayerTimes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MQIslamicPrayerTimes/MQIslamicPrayerTimes.modulemap";
+				PRODUCT_NAME = MQIslamicPrayerTimes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C97B74E26EF8F828AD28990D4DE05A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D60343D717778DB441DE3C488C0B546 /* Pods-MQIslamicPrayerTimes_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MQIslamicPrayerTimes_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MQIslamicPrayerTimes_Tests/Pods-MQIslamicPrayerTimes_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MQIslamicPrayerTimes_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2029AB817393165A2A364346474BBE8C /* Build configuration list for PBXNativeTarget "MQIslamicPrayerTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B80CC747125DB1AE60F2858E6A8807A /* Debug */,
+				BC6CF0B7E1BDB689AC520D0B324764CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED445BDFF7CCBBBF0AC7459EE43D360D /* Build configuration list for PBXNativeTarget "Pods-MQIslamicPrayerTimes_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97B74E26EF8F828AD28990D4DE05A0B /* Debug */,
+				173395859B5161186451B79D5B6F37F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
